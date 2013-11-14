@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface AAViewController : UIViewController
+@property float scaleFactor;
+@property float angle;
+@property UIView *boxView;
 
 @end
